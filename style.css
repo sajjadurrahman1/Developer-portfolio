@@ -50,9 +50,40 @@ body{
      font-weight: 700px;
  color: white;
  }
+ .experience-item{
+     width: 80%;
+     margin-left: 6%;
+    padding-left: 15px;
+    border-radius: 10px;
+     margin-right: 6%;
+    box-shadow: 10px 10px 40px gray;
+ }
+ h1{
+     font-size: 50px;
+ }
+h2{
+    font-size: 40px;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-position: left ;
+    background-repeat: no-repeat;
+    padding-bottom: 10%;
+}
+#border-image-color{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+#border-color{
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon,tomato);
+    border-image-slice: 1;
+}
 
-
-
-
+p{
+    text-align: center;
+    padding-bottom: 5%;
+}
 
 
